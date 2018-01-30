@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.row{
+  background-color: #e3eaed;
+}
+.contato{
+  text-align: center;
+}
+.topo{
+  max-width: 100%;
+  padding-top: 15px;
+  background: url('imagens/fundo3.jpg');
+  background-color: #000 !important;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.menu{
+  float: left;
+  background-color: #555;
+  padding: 8px 6px;
+  border-radius: 2px
+  border:0;
+}
+.row button{
+  text-decoration: none;
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .row .topo{
+    background-repeat: round;
+  }
+  .row .primary button{
+
+  }
+  .menu{
+    display: none;
+  }
+  .menu-mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .row .mensagem{
+    font-size: 25px !important;
+    padding: 10px 0;
+  }
+  .row .planos{
+    margin-top: 310px !important;
+  }
+  .logo{
+    display: none;
+  }
+  .contato{
+    font-size: 11px;
+  }
+  .primary{
+    display: none;
+  }
+  .topo{
+    padding-bottom: 10px;
+  }
+}
+.icon-menu{
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+  border: 0;
+}
+.icon-menu + .icon-menu{
+  margin-top: 4px;
+}
+.topo a{
+  text-decoration: none !important;
+  color:#fff;
+}
+.topo a:hover, .topo a:focus{
+  color: #fff;
+  background-color: #08283a !important;
+}
+
+.plano table th, .plano table td{
+  text-align: center !important;
+}
+.plano td{
+  border-color: #bec9ce !important;
+}
+.plano tbody{
+  border: 1px solid #841322;
+}
+
+.preco{
+  left: 50%;
+  float: left;
+  position: relative;
+  transform: translate(-50%, 0);
+}
+.plano p{
+  float: left;
+  font-size: 13px;
+  color: #236f87;
+}
+.plano span{
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: #236f87;
+}
+.planos{
+  padding-top: 30px;
+}
+
+.contrate{
+  width: 100%;
+}
+.contrate a{
+  float: left;
+  left: 50%;
+  position:relative;
+  transform: translate(-50%, 0);
+  padding: 15px 30px !important;
+  border: 2px solid #0ba085;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0ba085;
+}
+.contrate a:hover, .contrate a:focus{
+  text-decoration: none;
+  color:#fff;
+  background: #0ba085;
+}
+.plnome{
+  background-color: #841322;
+  font-size: 25px;
+  color: #fff;
+}
+
+.painel{
+}
+
+.mensagem{
+  padding: 80px 0;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.comentarios{
+  background-color: #08283a;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 0;
+}
+.cliente{
+  margin-top: 20px;
+  padding: 30px 0;
+  text-align: center;
+  background: #fff;
+  margin-right: 30px;
+}
+.blococm{
+  margin-top: 30px;
+}
+.avatar{
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+}
+.autorcomentario{
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+  padding: 20px 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.primary button span{
+  color: #fff !important;
+}
